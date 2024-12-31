@@ -7,10 +7,11 @@ Stack: Python, aiogram, gigachat, SQLAlchemy, Alembic
 - `/clear` — clears user conversation history with the bot
 
 ## Run with Docker
+Create .env file similar to .env-example with your variables
 
 `docker-compose up --build -d` 
 
-Go to https://t.me/shamantestbot
+Go to https://t.me/yourbotname
 
 ## Run without Docker
 
@@ -32,7 +33,7 @@ alembic upgrade head
 cd bot
 py main.py
 ```
-Go to https://t.me/shamantestbot
+Go to https://t.me/yourbotname
  
 
 ## DB structure
